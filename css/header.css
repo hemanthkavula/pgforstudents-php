@@ -1,0 +1,22 @@
+@media (min-width:1200px){
+    .button{
+        display: none;
+    }
+}
+@media (min-width:992px){
+    .button{
+        display: none;
+    }
+}
+@media (min-width:768px){
+    .button{
+        display: none;
+    }
+}
+@media (min-width:576px) {
+    .button{
+        display: none;
+    }
+}
+@media (min-width:0px){
+}

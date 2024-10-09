@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.breadcrumb{
+    background-color: #e5e3e8;
+}
+.home{
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+}
+.breadcrumb-item{
+    font-size: 20px;
+}
+.img{
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgb(192, 176, 176) ;
+    padding: 0px;
+    margin: 0px;
+}
+.filter{
+    text-decoration: none;
+}
+.text1{
+    font-size: 20px;
+    color: black;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.img1{
+    width: 100px;
+    padding: 15px;
+}
+.card{
+    margin:5px auto 10px;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 5px rgb(192, 176, 176);
+}
+.star{
+    color: orangered;
+}
+.heart{
+    color: orangered;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.interested{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.content{
+    display: flex;
+    justify-content: flex-end;
+}
+.male{
+    width: 50px;
+    padding-top: 0px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.amount{
+    display: flex;
+}
+.month{
+    display: flex;
+    padding-left: 7px;
+    font-size: 18px;
+}
+.button1{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn1{
+    padding:5px 50px;
+}
+@media (min-width:576px) {
+    .img1{
+        width: 200px;
+        height: 230px;
+    }
+}
+@media (min-width:0px){
+    .img1{
+        width: 300px;
+        height: 200px;
+    }
+}
+.footer{
+    background-color: rgb(83, 82, 82);
+    height: 100px;
+    padding-top: 15px;
+}
+.footer1{
+    color: white;
+}
+

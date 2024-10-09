@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner Login</title>
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet"/>
+    <style>
+        .forgot{
+    color: green; 
+    font-size: 30px;
+    padding-left: 50px;  
+}
+@media (min-width:768px){
+    .form{
+        margin-top: 70px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="row row1">
+        <div class="col-6 img">
+        <img src="img/logo.jpg" class="img1">
+    </div>
+    <center>
+    <div class="col-6 form">
+        <i class="fas fa-users signup"></i>
+        <h1 class="signup1">Owner LOGIN</h1>
+        <form method="POST" action="owner.php">
+            <input type="text" placeholder="Phone number" name="phone" id="phone" maxlength="10" required><br/><br/>
+            <input type="password" placeholder="Password" name="password" id="password" minlength="6" required><br/><br/>
+            <input type="submit" value="Login" class="register"><br/><br/>
+        </form>
+        </div>
+        </center>
+    </div>
+</body>
+</html>
+
+
+

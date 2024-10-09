@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.breadcrumb{
+    background-color: #e5e3e8;
+    margin: 0px;
+    height: 50px;
+}
+.home{
+    color: green;
+    text-decoration: none;
+    font-size: 15px;
+}
+.breadcrumb-item{
+    font-size: 15px;
+}
+.carousel img {
+    height: 300px;
+    object-fit: cover;
+    padding-top: 0px;
+}
+.star{
+    color: orangered;
+}
+.stars-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.details-name{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.details-address{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.interested{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.male{
+    width: 60px;
+    padding-top: 0px;
+}
+.amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px;
+}
+.month{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: px;
+    font-size: 18px;
+}
+.btn1{
+    padding:5px 50px;
+}
+.amenities{
+    background-color: rgb(248, 239, 239);
+    padding-top: 70px;
+}
+.rating{
+    border: 2px solid green;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color:white;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.rating1{
+    padding-left: 15px;
+}
+.stars{
+    color: rgb(75, 221, 221);
+}
+.star1{
+    color: white;
+}
+.review{
+    background-color: #777777;;
+}
+@media (min-width:1200px){
+    .button{
+        display: none;
+    }
+    .details-name{
+        font-size: 40px;
+    }
+    .home{
+        color: green;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .breadcrumb-item{
+        font-size: 20px;
+    }
+}
+@media (min-width:992px){
+    .details-name{
+        font-size: 40px;
+    }
+    .home{
+        color: green;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .breadcrumb-item{
+        font-size: 20px;
+    }
+}
+@media (min-width:768px){
+    .details-name{
+        font-size: 40px;
+    }
+    .home{
+        color: green;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .breadcrumb-item{
+        font-size: 20px;
+    }
+}
+.review{
+    border: 2px solid black;
+}
+.carousel img {
+    height: 300px;
+    object-fit: cover;
+}
+.is-interested-image{
+    margin-right: 20px;
+}
+@media (max-width:768px) {
+    
+}

@@ -1,0 +1,203 @@
+.gen{
+    font-size: 30px;
+    color: black;
+}
+.gens{
+    font-size: 20px;
+    color: black;
+}
+.form{
+    margin-top: 100px;
+    margin-left: 200px;
+    color: red;
+    border: 3px solid rgb(241, 229, 229);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background-color: rgb(241, 229, 229);
+}
+.form:hover{
+    box-shadow: 10px 10px 10px 10px rgb(192, 176, 176);
+}
+input{
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.register:hover{
+    background-color: white;
+}
+.login{
+    font-size: 30px;
+    color:green
+}
+.signup{
+    font-size: 60px;
+    position: relative;
+    top: 0px;
+    left: auto;
+    text-align: center;
+    color: black;
+    }
+.signup1{
+    color: black;
+}
+@media (min-width:0px) and (max-width:330px){
+    .img1{
+        display: block;
+        width: 300px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row{
+        display: block;
+    }
+    .form{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .signup{
+        font-size: 60px;
+        position: relative;
+        top: 20px;
+        left: auto;
+        text-align: center;
+        color: black;
+    }
+    .signup1{
+        color: black;
+    }
+    input{
+        font-size: 20px;
+    }
+}
+@media (min-width:330px) and (max-width:576px){
+    .img1{
+        display: block;
+        width: 330px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .signup{
+        position: fixed;
+        top: 150px;
+        left: 150px;
+    }
+    .row{
+        display: block;
+    }
+    .form{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .signup{
+        font-size: 60px;
+        position: relative;
+        top: 20px;
+        left: auto;
+        text-align: center;
+        color: black;
+    }
+    .signup1{
+        color: black;
+    }
+    input{
+        font-size: 22px;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .img1{
+        display: block;
+        width: 500px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row{
+        display: block;
+    }
+    .img{
+        justify-content: center;
+    }
+    .form{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .signup{
+        font-size: 60px;
+        position: relative;
+        top: 20px;
+        left: auto;
+        text-align: center;
+        color: black;
+    }
+    .signup1{
+        color: black;
+    }
+    input{
+    font-size: 25px;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .form{
+        margin-top: 100px;
+        margin-left: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .img{
+        align-items: center;
+    }
+    .img1{
+        margin-top: 150px;
+        width: 350px;
+        height: 200px;
+    }
+    input{
+        font-size: 25px;
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .form{
+        margin-top: 100px;
+        margin-left: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .img1{
+    margin-top: 150px;
+    width: 550px;
+    height: 200px;
+}
+    input{
+        font-size: 25px;
+    }
+}
+@media (min-width:1200px){
+    .img1{
+        width: 700px;
+        height: 200px;
+    }
+}
+@media (min-width:768px){
+    .img1{
+        margin-top: 150px;
+    }
+    .form{
+        margin-top: 30px;
+    }
+}
+
